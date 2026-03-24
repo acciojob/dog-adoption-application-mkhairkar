@@ -12,15 +12,28 @@
 </script>
 
 	<form>
+		<label for="name">Name</label>
 		<input type="text" placeholder="Name" id="name">
+		
+		<label for="phone">Phone Number</label>
 		<input type="text" placeholder="Phone Number" id="phone">
+		
+		<label for="address"></label>
 		<input type="text" placeholder="Address" id="address">
+		
+		<label for="checkbox">Have you ever lived with a Dog before?</label>
 		<input type="checkbox" id="checkbox" value="Have you ever lived with a Dog before?">
-		<select multiple id="multiSelect">
-			<option>golden</option>
-			<option>pug</option>
-			<option>husky</option>
-		</select>
+		
+		<label for="multiSelect">Please select your preferred breeds</label>
+		<label for="multiSelect">Please select your preferred breeds</label>
+    
+		<select id="multiSelect" multiple>
+        <option value="golden">Golden Retriever</option>
+        <option value="pug">Pug</option>
+        <option value="husky">Husky</option>
+        <option value="labrador">Labrador</option>
+    </select>
+		
 		<button type="submit" id="submit" value="Submit">Submit</button>
 	</form>
 
